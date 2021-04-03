@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1j2KV078KZgtld37aeGstl2pRGu2I25FA
 """
 
-install pyowm streamlit datetime pytz
+!pip install pyowm streamlit datetime pytz
 
 import os
 import pytz
