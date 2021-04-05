@@ -103,5 +103,5 @@ if x["cod"] != "404" and " ":
     st.write(" description = ",weather_description)
 elif  place == " ":
     st.subheader(" ")
-#else:
-    #st.subheader(" City Not Found ")
+else:
+    st.subheader(" City Not Found ")
