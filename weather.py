@@ -37,7 +37,8 @@ place=st.text_input("Enter the city name :","")
 if place == "":
     st.write("Input a CITY!")
 st.button("submit")
-
+os._exit(0)
+st.stop()
 #unit=st.selectbox("Select Temperature Unit",("Celsius","Fahrenheit"))
 
 #g_type=st.selectbox("Select Graph Type",("Line Graph","Bar Graph"))
@@ -73,7 +74,6 @@ x = response.json()
 # "404", means city is found otherwise,
 # city is not found
 if x["cod"] != "404" or " ":
-    StopException
     # store the value of "main"
     # key in variable y
     y = x["main"]
