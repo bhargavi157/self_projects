@@ -72,8 +72,9 @@ x = response.json()
 # Check the value of "cod" key is equal to
 # "404", means city is found otherwise,
 # city is not found
-if x["cod"] != "404" or " ":
-  
+if x["cod"] = "404" or " ":
+    st.write(" ")
+else :  
     # store the value of "main"
     # key in variable y
     y = x["main"]
