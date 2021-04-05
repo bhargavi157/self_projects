@@ -12,7 +12,7 @@ Created on Sat Apr  3 13:39:33 2021
 #    https://colab.research.google.com/drive/1j2KV078KZgtld37aeGstl2pRGu2I25FA
 #"""
 
-#!pip install pyowm streamlit datetime pytz
+pip install pyowm streamlit datetime pytz
 
 import os
 import pytz
