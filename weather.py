@@ -104,4 +104,4 @@ if x["cod"] != "404" and " ":
 elif  place == " ":
     st.subheader(" ")
 else:
-    st.subheader(" City Not Found ")
+    st.subheader("Error:please enter a city name")
