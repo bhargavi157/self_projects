@@ -34,11 +34,9 @@ st.write("### Write the name of a City to know the weather there")
 
 place=st.text_input("Enter the city name :", "")
 
-if place == None:
-    st.write("Input a CITY!")
+#if place == None:
+    #st.write("Input a CITY!")
 st.button("submit")
-elif place == bool(0):
-     st.write("Input a CITY!")
 
 #unit=st.selectbox("Select Temperature Unit",("Celsius","Fahrenheit"))
 
