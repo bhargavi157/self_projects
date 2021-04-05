@@ -34,7 +34,7 @@ st.write("### Write the name of a City to know the weather there")
 
 place=st.text_input("Enter the city name :","")
 
-if place == none:
+if place == "":
     st.write("Input a CITY!")
 st.button("submit")
 
