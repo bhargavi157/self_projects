@@ -32,9 +32,9 @@ st.title("Weather App")
 st.write("Made by Bhargavi :)")
 st.write("### Write the name of a City to know the weather there")
 
-place=st.text_input("Enter the city name :","")
+place=st.text_input("Enter the city name :"," ")
 
-if place == "":
+if place == " ":
     st.write("Input a CITY!")
 st.button("submit")
 #unit=st.selectbox("Select Temperature Unit",("Celsius","Fahrenheit"))
@@ -71,7 +71,7 @@ x = response.json()
 # Check the value of "cod" key is equal to
 # "404", means city is found otherwise,
 # city is not found
-if x["cod"] != "404" or " ":
+if x["cod"] != "404" and " ":
     # store the value of "main"
     # key in variable y
     y = x["main"]
