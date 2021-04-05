@@ -76,7 +76,7 @@ if x["cod"] != "404" or " ":
     # store the value of "main"
     # key in variable y
     y = x["main"]
-  
+    raise Exception('error')
     # store the value corresponding
     # to the "temp" key of y
     current_temperature = y["temp"]
