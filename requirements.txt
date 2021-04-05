@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Apr  3 13:40:23 2021
-
-@author: admin
-"""
-
+streamlit==0.63.1
+matplotlib==3.2.2
+DateTime==4.3
+pyowm==3.0.0
