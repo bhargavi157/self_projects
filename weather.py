@@ -72,9 +72,7 @@ x = response.json()
 # Check the value of "cod" key is equal to
 # "404", means city is found otherwise,
 # city is not found
-if x["cod"] == "404" or " ":
-    st.write(" ")
-else :  
+if x["cod"] != "404" or " ":
     # store the value of "main"
     # key in variable y
     y = x["main"]
@@ -105,7 +103,7 @@ else :
     st.write("atmospheric pressure (in hPa unit) = ",current_pressure)
     st.write(" humidity (in percentage) = ",current_humidity, "%")
     st.write(" description = ",weather_description)
-elif st.write("Input a CITY!"):
+elif  place == " ":
     st.subheader(" ")
 #else:
     #st.subheader(" City Not Found ")
