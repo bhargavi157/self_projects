@@ -37,7 +37,7 @@ place=st.text_input("Enter the city name :", "")
 if place == None:
     st.write("Input a CITY!")
 st.button("submit")
-elif place == bool(0)
+elif place == bool(0):
      st.write("Input a CITY!")
 
 #unit=st.selectbox("Select Temperature Unit",("Celsius","Fahrenheit"))
