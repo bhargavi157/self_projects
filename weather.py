@@ -37,8 +37,6 @@ place=st.text_input("Enter the city name :","")
 if place == "":
     st.write("Input a CITY!")
 st.button("submit")
-os._exit(0)
-st.stop()
 #unit=st.selectbox("Select Temperature Unit",("Celsius","Fahrenheit"))
 
 #g_type=st.selectbox("Select Graph Type",("Line Graph","Bar Graph"))
