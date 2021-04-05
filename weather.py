@@ -32,10 +32,9 @@ st.title("Weather App")
 st.write("Made by Bhargavi :)")
 st.write("### Write the name of a City to know the weather there")
 
-place=st.text_input("Enter the city name :", "Input a CITY!")
+place=st.text_input("Enter the city name :",none)
 
-if place == "Input a CITY!":
-    y != x["main"]
+if place == none:
     st.write("Input a CITY!")
 st.button("submit")
 
